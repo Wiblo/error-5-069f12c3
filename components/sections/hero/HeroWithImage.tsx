@@ -28,7 +28,6 @@ export function HeroWithImage({
   backgroundImageAlt,
   ctaText,
   ctaUrl,
-  overlayOpacity = 20,
   size = "large",
   className,
 }: HeroWithImageProps) {

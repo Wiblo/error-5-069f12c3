@@ -104,18 +104,19 @@ export function LocationSection({
 
   // Run status check only on client side to avoid hydration mismatch
   useEffect(() => {
-    // Set initial status
-    const initialStatus = getCurrentStatus()
-    setStatus(initialStatus)
-
-    // Update status every minute
-    const interval = setInterval(() => {
+    // Update status function
+    const updateStatus = () => {
       const newStatus = getCurrentStatus()
       setStatus(newStatus)
-    }, 60000)
+    }
+
+    // Set initial status
+    updateStatus()
+
+    // Update status every minute
+    const interval = setInterval(updateStatus, 60000)
 
     return () => clearInterval(interval)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   return (

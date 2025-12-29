@@ -2,7 +2,7 @@ export const businessInfo = {
   // Core business details
   name: "Resolve Chiropractic & Wellness",
   tagline: "Start Your New Year Pain-Free and Aligned",
-  logo: "/logo.png",
+  logo: "/logo.svg",
 
   // Contact information
   phone: "(555) 2025-NEW",
