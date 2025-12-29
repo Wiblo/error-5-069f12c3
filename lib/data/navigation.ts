@@ -22,7 +22,7 @@ export const navItems: NavItem[] = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
   { label: "Treatments", href: "/treatments" },
-  { label: "Contact", href: "/contact" },
+  { label: "Get in touch", href: "/contact" },
 ]
 
 // Footer quick links (can include booking link)
@@ -30,7 +30,7 @@ export const quickLinks: NavItem[] = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
   { label: "Treatments", href: "/treatments" },
-  { label: "Contact", href: "/contact" },
+  { label: "Get in touch", href: "/contact" },
   // Booking link will be added dynamically from businessInfo.bookingUrl
 ]
 
