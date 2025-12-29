@@ -10,52 +10,52 @@ export interface FaqItem {
  */
 export const faqs: FaqItem[] = [
   {
-    id: 'first-visit',
-    question: 'What should I expect on my first visit?',
+    id: 'new-year-special',
+    question: 'What makes the New Year Reset different from a regular consultation?',
     answer:
-      "Your initial consultation includes a thorough history taking and physical examination to determine if chiropractic care is suitable for you. We'll discuss your health goals and create a personalized treatment plan. The first visit typically lasts 45 minutes to ensure we understand your needs completely. Follow-up appointments are 30 minutes.",
+      "The 2025 New Year Reset is specifically designed to align your wellness journey with your New Year resolutions. It includes a comprehensive spinal assessment, personalized 2025 wellness roadmap, resolution planning strategies, and your first adjustment. You'll also receive a complimentary wellness journal to track your progress throughout the year. It's perfect for anyone committed to making 2025 their healthiest year yet.",
   },
   {
-    id: 'medical-aid',
-    question: 'Do you accept medical aid?',
+    id: 'resolution-commitment',
+    question: 'How does chiropractic care help me keep my New Year resolutions?',
     answer:
-      'Yes, we process medical aid claims on your behalf. We work with most major medical aids in South Africa. You settle your bill after your session and then we will submit the claim to your medical aid.',
+      "Many New Year resolutions involve physical wellness - losing weight, exercising more, reducing stress, or living pain-free. Regular chiropractic care optimizes your nervous system function, reduces pain that might limit activity, improves mobility, and helps manage stress. Our Resolution Maintenance Care includes accountability check-ins to keep you motivated and on track throughout 2025.",
   },
   {
-    id: 'painful',
-    question: 'Is chiropractic treatment painful?',
+    id: 'first-time-patients',
+    question: 'Is this suitable for first-time chiropractic patients?',
     answer:
-      "Chiropractic adjustments are generally not painful. You may feel slight pressure or hear a popping sound, but the treatment is designed to relieve pain, not cause it. We adapt techniques to each patient's comfort level and always communicate throughout the treatment to ensure you're comfortable.",
+      "Absolutely! The New Year Reset is perfect for first-time patients. We designed it specifically to welcome new patients who want to start 2025 with optimal health. We'll explain everything, answer all your questions, and ensure you're comfortable every step of the way. Many people choose the New Year as the perfect time to try chiropractic care for the first time.",
   },
   {
-    id: 'sessions',
-    question: 'How many sessions will I need?',
+    id: 'pricing-insurance',
+    question: 'Do you accept insurance for these New Year services?',
     answer:
-      "The number of sessions varies depending on your condition, its severity, and your health goals. After your initial assessment, we'll provide a treatment plan with an estimated timeline. Most patients see improvement within 2-4 sessions, though chronic conditions may require ongoing care.",
+      'Yes, we work with most major insurance providers. Our New Year services are priced competitively and many patients find their insurance covers a significant portion. We process claims on your behalf and will verify your coverage before your first visit. Payment plans are also available to help you invest in your 2025 wellness goals.',
   },
   {
-    id: 'pregnancy',
-    question: 'Is chiropractic care safe during pregnancy?',
+    id: 'champagne-special',
+    question: 'What is included in the Champagne Adjustment Special?',
     answer:
-      'Yes, chiropractic care is safe and beneficial during pregnancy. We use specialized techniques designed for pregnant women to help manage pain and ensure proper pelvic alignment for easier delivery. Many women find relief from pregnancy-related back pain through gentle chiropractic care.',
+      "The Champagne Adjustment Special is our premium celebration service. It includes a 45-minute premium adjustment session in our festive treatment room, relaxation and stress relief techniques, a complimentary wellness consultation, and a take-home celebration kit with wellness tools to support your journey. It's perfect for treating yourself or gifting to someone special who deserves exceptional care.",
   },
   {
-    id: 'children',
-    question: 'Can children receive chiropractic treatment?',
+    id: 'maintenance-frequency',
+    question: 'How often should I come for Resolution Maintenance Care?',
     answer:
-      'Absolutely! Children can benefit greatly from chiropractic care. We use gentle, age-appropriate techniques to address issues like colic, growing pains, sports injuries, and posture problems. Pediatric chiropractic care supports healthy development and can prevent future problems.',
+      "The frequency depends on your individual goals and condition. Most patients benefit from weekly or bi-weekly visits initially, transitioning to monthly maintenance care as they progress. During your New Year Reset, we'll create a personalized schedule that aligns with your 2025 resolutions and ensures you stay on track throughout the year.",
   },
   {
-    id: 'appointment',
-    question: 'How do I book an appointment?',
+    id: 'booking-availability',
+    question: 'How do I book my New Year appointment?',
     answer:
-      'You can book an appointment through our online booking system at Sticks and Stones Wellness Hub, call us at 082 940 7129, or email kamilahjordaan@gmail.com. We offer flexible scheduling with appointments available 6 days a week to accommodate your busy lifestyle.',
+      'Book online through our website, call us at (555) 2025-NEW, or email newyear@resolvechiro.com. We have extended hours through January to accommodate everyone starting their wellness journey. Early morning and evening appointments are available for busy schedules. Book soon - our New Year Reset appointments fill up quickly!',
   },
   {
-    id: 'what-to-wear',
-    question: 'What should I wear to my appointment?',
+    id: 'what-to-expect',
+    question: 'Will adjustments hurt? What should I expect?',
     answer:
-      'Wear comfortable, loose-fitting clothing that allows for movement. Avoid wearing dresses or skirts if possible, as you may need to perform certain movements during the examination.',
+      "Chiropractic adjustments are generally comfortable and not painful. You may feel slight pressure or hear a popping sound (like cracking your knuckles), but most patients find the experience relaxing and immediately relieving. We use gentle techniques adapted to your comfort level and always communicate throughout your treatment. Many patients leave feeling lighter, looser, and ready to conquer their 2025 goals!",
   },
 ]
 

@@ -1,53 +1,53 @@
 export const businessInfo = {
   // Core business details
-  name: "Practice Name Chiropractic",
-  tagline: "Quality chiropractic care in Your City",
+  name: "Resolve Chiropractic & Wellness",
+  tagline: "Start Your New Year Pain-Free and Aligned",
   logo: "/logo.png",
 
   // Contact information
-  phone: "(555) 123-4567",
-  phoneSecondary: "(555) 987-6543", // Optional second phone number
-  email: "contact@example.com",
+  phone: "(555) 2025-NEW",
+  phoneSecondary: "(555) 876-5432", // Optional second phone number
+  email: "newyear@resolvechiro.com",
 
   // Location
   address: {
-    street: "123 Main Street",
-    area: "", // Optional (e.g., "Building Name" or "Suite 100")
-    city: "Springfield",
-    state: "CA",
-    zip: "12345",
+    street: "2025 Resolution Boulevard",
+    area: "Suite 100", // Optional (e.g., "Building Name" or "Suite 100")
+    city: "New Haven",
+    state: "CT",
+    zip: "06510",
     country: "US",
   },
 
   // Optional: Coordinates for map and LocalBusiness schema
   geo: {
-    latitude: 40.7128,
-    longitude: -74.0060,
+    latitude: 41.3083,
+    longitude: -72.9279,
   },
 
   // Business hours
   hours: {
-    monday: "9:00am - 6:00pm",
-    tuesday: "9:00am - 6:00pm",
-    wednesday: "9:00am - 6:00pm",
-    thursday: "9:00am - 6:00pm",
-    friday: "9:00am - 5:00pm",
-    saturday: "10:00am - 2:00pm",
+    monday: "8:00am - 7:00pm",
+    tuesday: "8:00am - 7:00pm",
+    wednesday: "8:00am - 7:00pm",
+    thursday: "8:00am - 7:00pm",
+    friday: "8:00am - 6:00pm",
+    saturday: "9:00am - 3:00pm",
     sunday: "Closed",
   },
 
   // Social media profiles
   social: {
-    facebook: "https://facebook.com/yourpage",
-    instagram: "https://instagram.com/yourpage",
-    whatsapp: "https://wa.me/1234567890", // WhatsApp link with number
+    facebook: "https://facebook.com/resolvechiro",
+    instagram: "https://instagram.com/resolvechiro",
+    whatsapp: "https://wa.me/15552025639", // WhatsApp link with number
     // twitter: "https://twitter.com/yourpage",
     // linkedin: "https://linkedin.com/company/yourpage",
   },
 
   // Site metadata
-  url: "https://example.com",
-  description: "Dedicated to helping people achieve a pain-free life through non-invasive healthcare.",
+  url: "https://resolvechiro.com",
+  description: "Ring in the New Year with optimal health and alignment. Expert chiropractic care to help you achieve your 2025 wellness resolutions.",
   priceRange: "$$", // $, $$, $$$, or $$$$
 
   // Schema.org types for JSON-LD structured data
@@ -60,13 +60,13 @@ export const businessInfo = {
   schemaTypes: ['LocalBusiness', 'MedicalBusiness', 'HealthAndBeautyBusiness'] as const,
 
   // Booking/appointment URL
-  bookingUrl: "https://sticksandstoneswellnesshub.pencilmein.online/Booking",
+  bookingUrl: "https://resolvechiro.com/booking",
 
   // Google Maps configuration
   maps: {
     apiKey: "AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8",
     // Location name for Google Maps searches
-    locationName: "Sticks and Stones Wellness Hub",
+    locationName: "Resolve Chiropractic & Wellness",
   },
 }
 
