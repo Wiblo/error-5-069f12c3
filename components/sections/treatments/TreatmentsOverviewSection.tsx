@@ -19,6 +19,7 @@ export interface TreatmentsOverviewSectionProps {
  */
 export function TreatmentsOverviewSection({ className }: TreatmentsOverviewSectionProps) {
   // Get services and omit icon field (which contains React components that can't be serialized)
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const treatments = getAllServices().map(({ icon: _icon, ...service }) => service)
 
   return (

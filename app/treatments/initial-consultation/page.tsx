@@ -27,6 +27,7 @@ export default function InitialConsultationPage() {
   }
 
   // Omit icon field before passing to client component
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { icon: _icon, ...treatmentData } = treatment
 
   return (

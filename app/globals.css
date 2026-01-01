@@ -1,8 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-@custom-variant dark (&:is(.dark *));
-
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -49,97 +47,62 @@
   --radius: 0.625rem;
   --radius-4xl: 2rem; /* Extra large border radius for hero sections */
 
-  /* Dark New Year theme - Deep navy night sky */
-  --background: oklch(0.15 0.03 240); /* Deep navy blue */
-  --foreground: oklch(0.98 0 0); /* Near white text */
+  /* Light mode theme - Clean and professional */
+  --background: oklch(0.99 0 0); /* Pure white background */
+  --foreground: oklch(0.15 0.015 285.88); /* Dark text */
 
-  /* Card colors - Slightly lighter than background */
-  --card: oklch(0.20 0.03 240); /* Dark blue-gray cards */
-  --card-foreground: oklch(0.98 0 0); /* White text */
+  /* Card colors - Subtle off-white */
+  --card: oklch(0.99 0 0); /* White cards */
+  --card-foreground: oklch(0.15 0.015 285.88); /* Dark text */
 
   /* Popover colors */
-  --popover: oklch(0.20 0.03 240);
-  --popover-foreground: oklch(0.98 0 0);
+  --popover: oklch(0.99 0 0);
+  --popover-foreground: oklch(0.15 0.015 285.88);
 
-  /* Primary brand color - Gold/champagne for celebration */
-  --primary: oklch(0.80 0.12 85); /* Vibrant gold */
-  --primary-foreground: oklch(0.15 0.03 240); /* Dark text on gold */
+  /* Primary brand color - Professional blue */
+  --primary: oklch(0.45 0.15 264); /* Medium blue */
+  --primary-foreground: oklch(0.99 0 0); /* White text on primary */
 
-  /* Secondary colors - Rich purple firework accent */
-  --secondary: oklch(0.45 0.15 300); /* Deep purple */
-  --secondary-foreground: oklch(0.98 0 0); /* White text */
+  /* Secondary colors - Subtle gray */
+  --secondary: oklch(0.96 0.005 285.88); /* Light gray */
+  --secondary-foreground: oklch(0.15 0.015 285.88); /* Dark text */
 
-  /* Muted colors - Subtle blue-gray */
-  --muted: oklch(0.25 0.03 240); /* Muted dark blue */
-  --muted-foreground: oklch(0.70 0.02 240); /* Light gray-blue text */
+  /* Muted colors - Light gray */
+  --muted: oklch(0.96 0.005 285.88); /* Light gray background */
+  --muted-foreground: oklch(0.45 0.015 285.88); /* Medium gray text */
 
-  /* Accent colors - Electric blue firework accent */
-  --accent: oklch(0.60 0.20 250); /* Bright electric blue */
-  --accent-foreground: oklch(0.98 0 0); /* White text */
+  /* Accent colors - Bright accent */
+  --accent: oklch(0.96 0.005 285.88); /* Light gray accent */
+  --accent-foreground: oklch(0.15 0.015 285.88); /* Dark text */
 
   /* Destructive colors */
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.99 0 0);
 
   /* Border and input colors */
-  --border: oklch(0.30 0.03 240); /* Subtle dark borders */
-  --input: oklch(0.25 0.03 240); /* Input backgrounds */
-  --ring: oklch(0.80 0.12 85); /* Gold focus rings */
+  --border: oklch(0.92 0.005 285.88); /* Light gray borders */
+  --input: oklch(0.92 0.005 285.88); /* Light gray input backgrounds */
+  --ring: oklch(0.45 0.15 264); /* Blue focus rings */
 
-  /* Chart colors - Firework palette */
-  --chart-1: oklch(0.80 0.12 85); /* Gold */
-  --chart-2: oklch(0.60 0.20 250); /* Electric blue */
-  --chart-3: oklch(0.70 0.20 330); /* Hot pink */
-  --chart-4: oklch(0.75 0.18 150); /* Emerald green */
-  --chart-5: oklch(0.65 0.22 30); /* Orange-red */
+  /* Chart colors - Professional palette */
+  --chart-1: oklch(0.55 0.18 264); /* Blue */
+  --chart-2: oklch(0.60 0.18 150); /* Green */
+  --chart-3: oklch(0.65 0.20 330); /* Pink */
+  --chart-4: oklch(0.70 0.18 85); /* Gold */
+  --chart-5: oklch(0.60 0.22 30); /* Orange */
 
   /* Sidebar colors */
-  --sidebar: oklch(0.18 0.03 240);
-  --sidebar-foreground: oklch(0.98 0 0);
-  --sidebar-primary: oklch(0.80 0.12 85);
-  --sidebar-primary-foreground: oklch(0.15 0.03 240);
-  --sidebar-accent: oklch(0.25 0.03 240);
-  --sidebar-accent-foreground: oklch(0.98 0 0);
-  --sidebar-border: oklch(0.30 0.03 240);
-  --sidebar-ring: oklch(0.80 0.12 85);
+  --sidebar: oklch(0.99 0 0);
+  --sidebar-foreground: oklch(0.15 0.015 285.88);
+  --sidebar-primary: oklch(0.45 0.15 264);
+  --sidebar-primary-foreground: oklch(0.99 0 0);
+  --sidebar-accent: oklch(0.96 0.005 285.88);
+  --sidebar-accent-foreground: oklch(0.15 0.015 285.88);
+  --sidebar-border: oklch(0.92 0.005 285.88);
+  --sidebar-ring: oklch(0.45 0.15 264);
 
-  /* Custom color for primary hover state - Brighter gold */
-  --primary-hover: oklch(0.85 0.14 85);
-}
-
-.dark {
-  /* Even darker theme for explicit dark mode - midnight black */
-  --background: oklch(0.10 0.03 240); /* Near black with blue tint */
-  --foreground: oklch(0.98 0 0);
-  --card: oklch(0.15 0.03 240);
-  --card-foreground: oklch(0.98 0 0);
-  --popover: oklch(0.15 0.03 240);
-  --popover-foreground: oklch(0.98 0 0);
-  --primary: oklch(0.85 0.14 85); /* Bright gold */
-  --primary-foreground: oklch(0.10 0.03 240);
-  --secondary: oklch(0.40 0.15 300); /* Deeper purple */
-  --secondary-foreground: oklch(0.98 0 0);
-  --muted: oklch(0.20 0.03 240);
-  --muted-foreground: oklch(0.65 0.02 240);
-  --accent: oklch(0.65 0.22 250); /* Brighter electric blue */
-  --accent-foreground: oklch(0.98 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(0.25 0.03 240);
-  --input: oklch(0.20 0.03 240);
-  --ring: oklch(0.85 0.14 85);
-  --chart-1: oklch(0.85 0.14 85); /* Gold */
-  --chart-2: oklch(0.65 0.22 250); /* Electric blue */
-  --chart-3: oklch(0.75 0.22 330); /* Hot pink */
-  --chart-4: oklch(0.80 0.20 150); /* Emerald green */
-  --chart-5: oklch(0.70 0.24 30); /* Orange-red */
-  --sidebar: oklch(0.12 0.03 240);
-  --sidebar-foreground: oklch(0.98 0 0);
-  --sidebar-primary: oklch(0.85 0.14 85);
-  --sidebar-primary-foreground: oklch(0.10 0.03 240);
-  --sidebar-accent: oklch(0.20 0.03 240);
-  --sidebar-accent-foreground: oklch(0.98 0 0);
-  --sidebar-border: oklch(0.25 0.03 240);
-  --sidebar-ring: oklch(0.85 0.14 85);
+  /* Custom color for primary hover state - Slightly darker blue */
+  --primary-hover: oklch(0.40 0.18 264);
 }
 
 @layer base {
