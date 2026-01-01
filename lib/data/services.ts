@@ -1,4 +1,4 @@
-import { Zap, Sparkles, Target } from 'lucide-react'
+import { Zap, Sparkles, Target, Heart } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 
 export interface Service {
@@ -118,6 +118,40 @@ export const services: Service[] = [
       'Premium care enthusiasts',
       'New Year celebration',
       'Self-care advocates',
+    ],
+  },
+  {
+    id: 'wellness-transformation',
+    slug: 'wellness-transformation',
+    name: 'Total Wellness Transformation Package',
+    description:
+      'A comprehensive 12-week program designed to transform your health from the inside out. Includes weekly adjustments, personalized exercise plans, nutritional guidance, and lifestyle coaching to help you achieve lasting wellness results.',
+    duration: '12 weeks',
+    price: '$1,499',
+    image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80',
+    imageAlt: 'Person stretching outdoors in sunrise showing wellness and vitality',
+    icon: Heart,
+    benefits: [
+      '12 weekly chiropractic adjustment sessions',
+      'Personalized exercise and stretching program',
+      'Nutritional consultation and meal planning',
+      'Monthly progress assessments',
+      'Lifestyle coaching and habit formation support',
+      'Access to online wellness resources',
+      'Priority scheduling throughout the program',
+    ],
+    featured: true,
+    shortDescription:
+      'Transform your life with our comprehensive 12-week wellness program',
+    fullDescription:
+      'The Total Wellness Transformation Package is our most comprehensive offering, designed for those ready to commit to lasting change. This 12-week program goes beyond simple adjustments to address every aspect of your health and wellness.\n\nYou will receive weekly chiropractic care tailored to your specific needs, along with personalized exercise programs, nutritional guidance, and one-on-one lifestyle coaching. We track your progress monthly and adjust your plan to ensure you are achieving your goals. This holistic approach addresses not just your symptoms, but the root causes of discomfort and limitation, helping you build sustainable healthy habits that last long after the program ends.',
+    idealFor: [
+      'Chronic pain sufferers seeking lasting relief',
+      'Those committed to significant lifestyle change',
+      'Athletes wanting performance optimization',
+      'Individuals with complex health challenges',
+      'Anyone seeking comprehensive wellness support',
+      'People ready to invest in their long-term health',
     ],
   },
 ]
