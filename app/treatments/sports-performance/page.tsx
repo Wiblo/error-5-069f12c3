@@ -9,7 +9,7 @@ import { generateServiceSchema, JsonLd } from "@/lib/seo/json-ld"
 import { getServiceBySlug } from "@/lib/data/services"
 import { businessInfo } from "@/lib/data/business-info"
 
-const treatment = getServiceBySlug("champagne-adjustment")
+const treatment = getServiceBySlug("sports-performance")
 
 if (!treatment) {
   notFound()
@@ -21,7 +21,7 @@ export const metadata: Metadata = generatePageMetadata(
   `/treatments/${treatment.slug}`
 )
 
-export default function ChampagneAdjustmentPage() {
+export default function SportsPerformancePage() {
   if (!treatment) {
     notFound()
   }
@@ -47,11 +47,11 @@ export default function ChampagneAdjustmentPage() {
         })}
       />
       <HeroWithImage
-        subtitle="Premium Wellness Experience"
+        subtitle="Athletic Performance Care"
         title={treatment.name}
         backgroundImage={treatment.image}
         backgroundImageAlt={treatment.imageAlt}
-        ctaText="Book Your Celebration"
+        ctaText="Optimize Your Performance"
         ctaUrl={businessInfo.bookingUrl}
         size="medium"
       />
